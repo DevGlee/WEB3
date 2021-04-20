@@ -43,3 +43,21 @@ body
     {
         /* Liste de vos règles */
     }
+
+#ecran {
+	border: 1px solid black;
+	border-radius: 1em;
+	margin: auto;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	width: 90%;
+	min-height: 3em;
+}
+
+.ligne1{
+
+	margin: auto;
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+}
