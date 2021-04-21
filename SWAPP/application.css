@@ -42,12 +42,25 @@ body
 @media screen and (min-device-width: 480px) and (max-device-width: 961px)
     {
         /* Liste de vos règles */
+		#calculette{
+			border: 1px solid lawngreen;
+			border-radius: 1em;
+			margin: auto;
+			max-width: 30em;
+		}
     }
 
 /* Paramètre Ordinateur */
 @media screen and (min-device-width: 960px)
     {
         /* Liste de vos règles */
+
+		#calculette{
+			border: 1px solid lawngreen;
+			border-radius: 1em;
+			margin: auto;
+			max-width: 30em;
+		}
     }
 
 #ecran {
