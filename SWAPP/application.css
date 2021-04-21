@@ -31,7 +31,10 @@ body
     {
         /* Liste de vos règles */
 		#calculette{
-			
+			border: 0px solid yellowgreen;
+			width: 100%;
+			height: 100%;
+
 		}
     }
 
