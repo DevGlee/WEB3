@@ -30,6 +30,9 @@ body
 @media screen and (max-device-width: 481px)
     {
         /* Liste de vos règles */
+		#calculette{
+			
+		}
     }
 
 /* Paramètrage Tablettes */
@@ -45,7 +48,7 @@ body
     }
 
 #ecran {
-	border: 1px solid black;
+	border: 1px solid chocolate;
 	border-radius: 1em;
 	margin: auto;
 	margin-top: 0.5em;
@@ -54,7 +57,35 @@ body
 	min-height: 3em;
 }
 
-.ligne1{
+.l1{
+
+	margin: auto;
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+}
+.l2{
+
+	margin: auto;
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+}
+.l3{
+
+	margin: auto;
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+}
+.l4{
+
+	margin: auto;
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+}
+.l5{
 
 	margin: auto;
 	width: 90%;
