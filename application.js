@@ -56,6 +56,7 @@ function ajouter(d) {
 	else {
 		resultat += d;
 	}
+	
 	document.querySelector("#ecran").innerHTML = resultat;
 
 }
