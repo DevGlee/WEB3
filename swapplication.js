@@ -1,17 +1,18 @@
-const versionapplication='v0.0.1';
+const versionapplication='v0.0.3';
 
 self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open(versionapplication).then(function(cache) {
       return cache.addAll([
-        '/',
-        '/index.html',
-        '/application.css',
-        '/application.js',
-        '/swapplication.js',
-        '/application.txt',
-        '/application_144.png',
-        '/application_512.png'
+        '/WEB3/',
+        '/WEB3/index.html',
+        '/WEB3/application.css',
+        '/WEB3/manifest.json',
+        '/WEB3/application.js',
+        '/WEB3/swapplication.js',
+        '/WEB3/application.txt',
+        '/WEB3/application_144.png',
+        '/WEB3/application_512.png'
       ]);
     })
   );

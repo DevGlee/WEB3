@@ -1,16 +1,16 @@
 {
     "name": "Application",
     "short_name": "Application",
-    "scope": "/",
-    "start_url": "/",
+    "scope": "/WEB3/",
+    "start_url": "/WEB3/",
     "icons": [
         {
-            "src": "/application_512.png",
+            "src": "/WEB3/application_512.png",
             "sizes": "512x512",
             "type": "image/png"
         },
         {
-            "src": "/application_144.png",
+            "src": "/WEB3/application_144.png",
             "sizes": "144x144",
             "type": "image/png"
         }

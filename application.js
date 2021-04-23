@@ -1,6 +1,6 @@
 if ('serviceWorker' in navigator) {
 	navigator.serviceWorker
-		.register('/swapplication.js', { scope: '/' })
+		.register('/WEB3/swapplication.js', { scope: '/WEB3/' })
 		.then(function (reg) {
 			// suivre l'état de l'enregistrement du Service Worker : `installing`, `waiting`, `active`
 			if (reg.installing) {
